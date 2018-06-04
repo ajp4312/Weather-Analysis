@@ -3,13 +3,12 @@ def read(file):
     for line in open(file):
         if x>2:
             l = line.split()
-            print(l)
-            '''#print(l)
+            #print(l)
             data=l[-4:]
             #print(data)
             for i in data:
                 if float(i)<-999:
-                    print(line)'''
+                    print(line)
         x+=1
 
 
